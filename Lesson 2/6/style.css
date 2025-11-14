@@ -1,0 +1,18 @@
+.wrapper4 {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px 200px 200px 200px;
+  gap: 15px;
+}
+
+.wrapper4 div {
+  display: flex;
+  font: bold;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  background-color:#1fca78;
+  border-radius: 10px;
+}
