@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 15px 20px;
+  background: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #007bff;
+}
+
+.loader {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 40px;
+  color: #555;
+}
+
+.page {
+  padding: 25px;
+  font-size: 24px;
+}
